@@ -39,8 +39,10 @@ Logical parts of an application:
   Layouts management is represented by a separate class, that stores Radio Button handles and layout ids. The list of installed layouts is accessed via Windows. Forms classes. The layouts list compiled on application launch and after the installation of additional layouts it is necessary to reload the application.
 
 **4.**
-  HotKey registration functionality is accessed via imporded unmanaged functions from user32.dll:
+  HotKey registration functionality is accessed via imported unmanaged functions from user32.dll:
+  
   -RegisterHotKey
+  
   -UnregisterHotKey
 
 **5.**
