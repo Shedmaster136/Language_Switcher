@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Language_switcher_2.0", "Language_switcher_2.0.csproj", "{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Language_switcher.test", "..\Language_switcher.test\Language_switcher.test.csproj", "{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlobalHookLangSwitch", "..\GlobalHookLangSwitch\GlobalHookLangSwitch.vcxproj", "{04C5104F-C77D-4B76-B84E-45F936E8A796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Debug|x64.Build.0 = Debug|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Release|x64.ActiveCfg = Release|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Release|x64.Build.0 = Release|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E4CF8B8-9B40-40DF-8EBE-F806E3887762}.Release|x86.Build.0 = Release|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Release|x64.Build.0 = Release|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{97B7C9FE-90B2-4703-8DE1-D4B1E52BF5C2}.Release|x86.Build.0 = Release|Any CPU
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Debug|Any CPU.Build.0 = Debug|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Debug|x64.ActiveCfg = Debug|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Debug|x64.Build.0 = Debug|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Debug|x86.ActiveCfg = Debug|Win32
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Debug|x86.Build.0 = Debug|Win32
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Release|Any CPU.ActiveCfg = Release|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Release|Any CPU.Build.0 = Release|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Release|x64.ActiveCfg = Release|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Release|x64.Build.0 = Release|x64
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Release|x86.ActiveCfg = Release|Win32
+		{04C5104F-C77D-4B76-B84E-45F936E8A796}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {907FAAB4-93DF-4198-8716-7AB5851603E0}
+	EndGlobalSection
+EndGlobal
