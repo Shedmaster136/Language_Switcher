@@ -31,14 +31,18 @@ Logical parts of an application:
 
 **1.**
   Language Window is written using WPF framework. All the static elements are made in XAML, all the dynamic ones are added in C# code.
+
 **2.**
   NotifyIcon is not in WPF framework. To access this functionality the use of WindowsForms framework was necessary.
+
 **3.**
   Layouts management is represented by a separate class, that stores Radio Button handles and layout ids. The list of installed layouts is accessed via Windows. Forms classes. The layouts list compiled on application launch and after the installation of additional layouts it is necessary to reload the application.
+
 **4.**
   HotKey registration functionality is accessed via imporded unmanaged functions from user32.dll:
   -RegisterHotKey
   -UnregisterHotKey
+
 **5.**
   Hook procedure is necessary to catch and manage the registered HotKey message, when the window is inactive. The hook procedure is registered using a function from and Interop library, that allows to acces the low-level functionality of Win32 API. When the hook is registered it monitors for HotKey message. When it gets the message, it calls the function from user32.dll "PostMessage" with WM_INPUTLANGCHANGEREQUEST and layour id, that we want to activate.
   
