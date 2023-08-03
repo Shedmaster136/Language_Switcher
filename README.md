@@ -2,7 +2,12 @@
 Notification Icon app that allows to manage keyboard layouts if you have more than 2
 ****Intended Functionality:****
 - An application with an interface that resembles Windows desktop language panel as closely as possible.
+
+  
 ![image](https://github.com/Shedmaster136/Language_Switcher/assets/96218277/bc454c28-6a7f-4290-b45a-42123daecaad)
+
+
+
 - Application allows to manage keyboard layout switching when user knows and actively uses more than one language.
 - When user presses HotKey combination **(Ctrl+Spacebar) **, the layout switches between two or more user defined layouts.
 - User chooses the layouts using window interface with radiobuttons, representing one layout.
@@ -10,7 +15,11 @@ Notification Icon app that allows to manage keyboard layouts if you have more th
 - To close the application a user has to click on NotificationIcon with right mouse button, and choose 'Close' in the context menu that appears.
 
 This is how the interface looks on practice:
+
+
 ![image](https://github.com/Shedmaster136/Language_Switcher/assets/96218277/98fe7220-6db6-4b39-bef3-4550d0b9a7d0)
+
+
 
 ****Realization Details:****
 Logical parts of an application:
